@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici8</title>
+</head>
+
+<body>
+    <form action="form" method="post">
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <br>
+            <label for="nom">Nombre: </label>
+            <input type="text" name="nom" id="nom" mgmax="40">
+            <br>
+            <label for="ape">Apellidos: </label>
+            <input type="text" name="ape" id="ape" max="60">
+            <br>
+            <label for="pob">Población: </label>
+            <input type="text" name="pob" id="pob">
+            <br>
+            <label for="gmail">Correo: </label>
+            <input type="email" name="gmail" id="gmail">
+            <br>
+            <label for="tel">Telefono: </label>
+            <input type="number" name="tel" id="tel">
+            <br>
+            <label for="fecha">Fecha: </label>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+            <label for="sex">Sexo: </label><br>
+
+            <label for="h">Hombre</label>
+            <input type="radio" name="sex" id="h" value="h"><br>
+            <label for="m">Mujer</label>
+            <input type="radio" name="sex" id="m" value="m"><br>
+            <label for="o">Otros</label>
+            <input type="radio" name="sex" id="o" value="o"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contraseña: </legend><br>
+            <label for="con">Contraseña: </label>
+            <input type="password" name="con" id="con">
+            <br>
+            <label for="rep">Repetir contraseña: </label>
+            <input type="password" name="rep" id="rep">
+        </fieldset>
+        <fieldset>
+            <legend>Información profesional</legend><br>
+            <label for="emp">Nombre empresa: </label>
+            <input type="text" name="emp" id="emp">
+            <br>
+            <label for="web">Web de la empresa: </label>
+            <input type="url" name="web" id="web">
+        </fieldset>
+        <label for="aut">Automoción</label><br>
+
+        <label>
+            <input type="checkbox" name="sector1" value="automocion">
+            Automoción
+        </label><br>
+        <label>
+            <input type="checkbox" name="sector2" value="mecanica">
+            Mecánica
+        </label><br>
+        <label>
+            <input type="checkbox" name="sector3" value="informatica">
+            Informática
+        </label><br>
+        <label>
+            <input type="checkbox" name="sector4" value="electronica">
+            Electrónica
+        </label><br>
+        <label>
+            <input type="checkbox" name="sector5" value="alimentacion">
+            Alimentación
+        </label><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+    </form>
+</body>
+</html>
