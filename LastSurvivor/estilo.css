@@ -1,0 +1,150 @@
+body {
+  /*Dimensions*/
+  height: 100%;
+  width: 8;
+
+  /*Fons*/
+  background: url(00.jpg);
+  background-position:center center;
+  background-size: cover;
+
+  /*Altres*/
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+
+  /*Dimensions*/
+  width: 100vw;
+  height: 100vh;
+
+  /*Posició*/
+  position: absolute
+}
+
+
+.pos {
+
+  /*Dimensions*/
+  width: 100vw;
+  height: 100vh;
+
+  /*Posició*/
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.text {
+  background: url(text.png) top center;
+  background-size: 45vw;
+  background-repeat: no-repeat;
+
+}
+
+.mountain1 {
+  background: url(01.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.mountain2 {
+  background: url(02.png);
+  background-position: left bottom;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.mountain3 {
+  background: url(03.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.nube {
+  background: url(nube.png);
+  background-position: bottom left;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+
+.aguila {
+  background: url(Aguila.png);
+  background-position: top right;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+/*Estat Inicial*/
+
+.text {
+  transform: translate3d(0, 60px, 0);
+  opacity: 0;
+  animation: move 5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.mountain1 {
+  transform: scale3d(1, 1.1, 1.1);
+  opacity: 0.3;
+  animation: scaler 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.mountain2 {
+  transform: scale3d(4, 3, 2);
+  opacity: 0.1;
+  animation: move 2.2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.mountain3 {
+  transform: scale3d(2, 2.5, 1);
+  opacity: 0.1;
+  animation: move 3s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.nube{
+    transform: scale3d(2, 2.5, 1);
+    opacity: 0.1;
+    animation: scaler 2.2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.aguila{
+    transform: scale3d(2, 2.5, 1);
+    animation: slide  4s linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+/* Animacions*/
+
+@keyframes move {
+
+  100% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+  }
+
+}
+
+@keyframes scaler {
+
+  100% {
+      transform: scale3d(1, 1, 1);
+      opacity: 1;
+  }
+
+}
+
+
+@keyframes slide {
+    0% { transform: translateX(-100%); }
+    50% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}

@@ -1,0 +1,51 @@
+body{
+    overflow: hidden;
+    padding: 0;
+}
+
+.caja1{
+    background-color: #1abc9c;
+    color: white;
+    height: 30%;
+    flex: -6;
+}
+.caja2{
+    background-color: #3599db; 
+    color: white;
+    height: 20%;
+  
+}
+.caja3{
+    background-color: #9a58b6;
+    color: white;
+    height: 40%;
+}
+.caja4{
+    background-color: #34485f;
+    color: white;
+    height: 10%;
+}
+.caja5{
+    background-color: #f1c40f;
+    color: white;
+    height: 50%;
+   
+}
+.caja6{
+    background-color: #e77f22;
+    color: white;
+    height: 50%;
+}
+.grid{
+    display: flex;   
+    border: 2px red solid;
+    height: 95vh;
+    flex-flow: column wrap;
+    width: 100%;
+    
+}
+.pos{
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+}

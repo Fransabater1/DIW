@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+    background: url(img/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+
+    /*Dimensions*/
+    width: 100vw;
+    height: 100vh;
+
+    /*Posició*/
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    height: 100vh;
+
+    /*Posició*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.i4 {
+    background: url(img/foreground.png);
+    height: 100vh;
+    width: 200vw;
+    background-position: bottom center;
+    background-size: 100vw 50vh;
+    background-repeat: repeat-x;
+}
+
+.i3 {
+    background: url(img/hills.png);
+    height: 100vh;
+    width: 200vw;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-size: 100vw 55vh;
+}
+
+.i2 {
+    background: url(img/rocks1.png);
+    height: 100vh;
+    width: 200vw;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-size: 100vw 55vh;
+}
+
+.i1 {
+    background: url(img/rocks2.png);
+    height: 100vh;
+    width: 200vw;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-size: 100vw 55vh;
+}
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+.i4{
+    animation: slide 10s linear infinite;
+}
+
+.i3{
+     animation: slide 30s linear infinite;
+}
+
+.i2{
+     animation: slide 40s linear infinite;
+}
+
+.i1{
+     animation: slide 60s linear infinite;
+}
+

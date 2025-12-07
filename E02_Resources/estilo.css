@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    /*Dimensions*/
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 500px;
+    /*Posició*/
+    position: relative;
+    overflow: hidden;
+}
+
+.foto{
+    margin-top: 3vh;
+    background-image: url('photo.jpeg');
+    background-repeat: no-repeat;
+    background-position: top center;   
+    background-size: 30vw 50vh;
+    width: 500px;
+    height: 500px;
+    transition: all 0.5s ease-out;
+    position: relative;
+}
+
+.caja{
+    width: 300px;
+    min-height: 200px;
+    box-shadow: 1px 0px 3px black;
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    transition: transform 0.5s ease-out;
+    position: absolute;
+    bottom: -3vh;
+    left: 18%;
+}
+
+.foto:hover .caja{
+    transform: translateY(3vh);
+}
+
+.foto:hover{
+    background-position: center -3vh;
+}

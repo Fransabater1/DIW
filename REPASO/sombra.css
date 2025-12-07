@@ -1,0 +1,82 @@
+.s {
+    background-color: lightgray;
+    width: 130px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.sombras1{
+    box-shadow:  2px 2px, -2px -2px, 2px -2px, -2px 2px
+}
+
+.sombras2 {
+    box-shadow: 2px 2px 5px,
+        -2px -2px 5px,
+        2px -2px 5px,
+        -2px 2px 5px
+}
+
+.sombras3 {
+    box-shadow:
+        /* --- 1. ESQUINA ABAJO-DERECHA (La esquina Principal) --- */
+        /* +5px (Derecha) | +5px (Abajo) */
+        /* Positivo y Positivo */
+        5px 5px 5px,
+
+        /* --- 2. ESQUINA ARRIBA-IZQUIERDA (La esquina Opuesta) --- */
+        /* -2px (Izquierda) | -2px (Arriba) */
+        /* Negativo y Negativo */
+        -2px -2px 5px,
+
+        /* --- 3. ESQUINA ARRIBA-DERECHA (Mezcla 1) --- */
+        /* +5px (Derecha) | -2px (Arriba) */
+        /* Positivo y Negativo */
+        5px -2px 5px,
+
+        /* --- 4. ESQUINA ABAJO-IZQUIERDA (Mezcla 2) --- */
+        /* -2px (Izquierda) | +5px (Abajo) */
+        /* Negativo y Positivo */
+        -2px 5px 5px;
+}
+
+.sombras4 {
+    box-shadow:
+        5px 5px, -2px -2px, 5px -2px, -2px 5px
+}
+
+.sombras5 {
+    box-shadow: 5px 5px, -1px -1px, 5px -1px, -1px 5px;
+}
+
+.sombras6{
+    box-shadow: 5px 5px, -1px -1px, 5px -1px, -1px 5px; 
+}
+
+.sombras7 {
+    box-shadow: 2px 2px, -2px -2px, 2px -2px, -2px 2px
+}
+
+.sombras8 {
+    box-shadow: 2px 2px 5px,
+        -2px -2px 5px,
+        2px -2px 5px,
+        -2px 2px 5px
+}
+
+.sombras9 {
+    box-shadow: 1px 1px, -5px -5px 5px, -5px 1px 5px , 1px -5px;
+}
+
+.sombras10{
+    box-shadow: 1px 1px, -5px -5px, -5px 1px, 1px -5px;
+}
+
+.sombras11 {
+    box-shadow: -5px -5px, 
+}
+
+.sombras12{
+    box-shadow: 1px 1px, -5px -5px, -5px 1px, 1px -5px;
+}

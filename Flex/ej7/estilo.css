@@ -1,0 +1,60 @@
+body{
+    overflow: hidden;
+    padding: 0;
+}
+
+.caja1{
+    background-color: #1abc9c;
+    color: white;
+}
+.caja2{
+    background-color: #3599db; 
+    color: white;
+}
+.caja3{
+    background-color: #9a58b6;
+    color: white;
+}
+.caja4{
+    background-color: #34485f;
+    color: white;
+}
+.caja5{
+    background-color: #f1c40f;
+    color: white;
+}
+.caja6{
+    background-color: #e77f22;
+    color: white;
+}
+.caja7{
+    background-color: #e74c3c;
+    color: white;
+}
+.caja8{
+    background-color: #bcc3c6;
+    color: white;
+}
+.caja9{
+    background-color: #2ecc71;
+    color: white;
+}
+.caja10{
+    background-color: #17a185;
+    color: white;
+}
+.grid{
+    display: flex;   
+    border: 2px red solid;
+    height: 95vh;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+.pos{
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    width: 33.33%;
+    
+}

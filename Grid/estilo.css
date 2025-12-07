@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    width: 80%;
+    margin: 4vw auto;
+    
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(9, calc(880px/9));
+    grid-template-rows: repeat(9, calc(880px/9));
+    width: 880px;
+    list-style: none;
+    background-color: black;
+}
+
+li{
+    border: 5px solid black;
+}
+
+.uno{
+    grid-column: span 2;
+}
+
+.dos{
+    grid-column: span 3;
+}
+
+.tres{
+    grid-column: span 2;
+}
+
+.cuatro{
+    grid-row: span 6;
+}
+
+.cinco{
+    grid-row: span 2;
+}
+
+.seis{
+    grid-row: span 4;
+    grid-column: span 4;
+}
+
+.siete{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.ocho{
+    grid-row: span 3;
+}
+
+.nueve{
+    grid-row: span 2;
+}
+
+.diez{
+    grid-row: span 2;
+}
+
+.once{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.doce{
+    grid-column: span 2;
+}
+
+.trece{
+    grid-column: span 2;
+}
+
+.catorce{
+    grid-row: span 3;
+    grid-column-start: 9;
+    grid-row-end: 5;
+    grid-row-start: 8;
+}
+
+.quince{
+    grid-column: span 2;
+}
+
+.dieciseis{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.diecisiete{
+    grid-column-start: 5;
+    grid-row-end: 9;
+    grid-row-start: 6;
+}
+
+.dieciocho{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+.veinte{
+    grid-column: span 4;
+}
